@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Widgetia\\Widgetia\\Widgetia.csproj": {}
+    "C:\\Projects\\Widgetia\\Widgetia.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Widgetia\\Widgetia\\Widgetia.csproj": {
+    "C:\\Projects\\Widgetia\\Widgetia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Widgetia\\Widgetia\\Widgetia.csproj",
+        "projectUniqueName": "C:\\Projects\\Widgetia\\Widgetia.csproj",
         "projectName": "Widgetia",
-        "projectPath": "C:\\Projects\\Widgetia\\Widgetia\\Widgetia.csproj",
+        "projectPath": "C:\\Projects\\Widgetia\\Widgetia.csproj",
         "packagesPath": "C:\\Users\\rizot\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Widgetia\\Widgetia\\obj\\",
+        "outputPath": "C:\\Projects\\Widgetia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rizot\\AppData\\Roaming\\NuGet\\NuGet.Config",

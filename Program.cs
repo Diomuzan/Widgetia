@@ -1,25 +1,21 @@
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
 
-var app = builder.Build();
+Random random = new Random();
+string[] orderIDs = new string[5];
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+for (int i = 0; i < orderIDs.Length; i++) {
+    int prefixValue = random.Next(65, 70);
+    string prefix = Convert.ToChar(prefixValue).ToString();
+    string suffix = random.Next(1, 1000).ToString("000");
+    orderIDs[i] = prefix + suffix;
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+foreach (var orderID in orderIDs) {
+    Console.WriteLine(orderID);
+}
 
-app.UseRouting();
+// Example 1:
+Console.WriteLine("Hello Example 1!");
 
-app.UseAuthorization();
-
-app.MapRazorPages();
-
-app.Run();
+// Example 2:
+string firstWord = "Hello"; string lastWord = "Example 2"; Console.WriteLine(firstWord + " " + lastWord + "!");
